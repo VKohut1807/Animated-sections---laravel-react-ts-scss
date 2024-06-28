@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import FormTest from './components/FormTest';
 
-const idPage = "home_page";
+const idPage:string = "home_page";
 
 function Home() {
     return (
