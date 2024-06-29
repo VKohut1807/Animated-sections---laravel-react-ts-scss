@@ -8,7 +8,7 @@
     @php
         $jsonFilePath = public_path('dataJson/sections/section-1.json');
         $jsonContent = file_exists($jsonFilePath) ? file_get_contents($jsonFilePath) : '{}';
-        $dataJson = json_decode($jsonContent, true);
+        $dataJson1 = json_decode($jsonContent, true);
     @endphp
 
     <div class="section_1">
@@ -21,7 +21,7 @@
                 </a>
             </div>
             <div class="section_down">
-                @foreach ($dataJson as $elem)
+                @foreach ($dataJson1 as $elem)
                     <a href="#" class="block">
                         @if ($elem['number'] == 1)
                             @svg('/images/section-1/bulb-icon.svg')
