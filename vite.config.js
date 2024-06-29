@@ -9,6 +9,7 @@ const filesStyle = [
     'resources/scss/layouts/section-1.scss',
     'resources/scss/layouts/section-2.scss',
     'resources/scss/layouts/section-3.scss',
+    'resources/scss/layouts/section-4.scss',
 ];
 
 const filesTsx = [
