@@ -21,4 +21,9 @@ return [
         'view-name' => 'section-4',
         'route-name' => 'section-4'
     ],
+    'section-5' => [
+        'route-path' => 'section-5',
+        'view-name' => 'section-5',
+        'route-name' => 'section-5'
+    ]
 ];
