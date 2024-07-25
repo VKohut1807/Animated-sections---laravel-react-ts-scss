@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <div id="section_4" class="section_4">
+    <section id="section_4" class="section_4">
         <div class="canvas">
             <div class="image">
                 <img loading="lazy" load src="/images/section-4/1.jpg" alt="image">
@@ -21,5 +21,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 @endsection

@@ -6,6 +6,7 @@
 
 @section('content')
     <section style="height: 10rem;"></section>
+    
     <section class="section_5">
         <div class="group">
             @foreach (range(1, 5) as $item)

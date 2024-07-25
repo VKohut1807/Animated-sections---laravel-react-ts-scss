@@ -11,7 +11,7 @@
         $dataJson1 = json_decode($jsonContent, true);
     @endphp
 
-    <div class="section_1">
+    <section class="section_1">
         <div class="wrapper">
             <div class="section_up">
                 <h3>How to Apply</h3>
@@ -39,5 +39,5 @@
                 @endforeach
             </div>
         </div>
-    </div>
+    </section>
 @endsection

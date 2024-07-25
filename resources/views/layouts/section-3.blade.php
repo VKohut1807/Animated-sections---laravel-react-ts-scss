@@ -10,7 +10,8 @@
         $jsonContent = file_exists($jsonFilePath) ? file_get_contents($jsonFilePath) : '{}';
         $dataJson3 = json_decode($jsonContent, true);
     @endphp
-    <div id="section_3" class="section_3">
+
+    <section id="section_3" class="section_3">
         <div class="wrapper">
             <h3>FAQ's</h3>
             <div class="answers">
@@ -40,5 +41,5 @@
                 <a href="#" class="link">Read More</a>
             </div>
         </div>
-    </div>
+    </section>
 @endsection

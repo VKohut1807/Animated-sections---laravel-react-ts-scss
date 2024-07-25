@@ -12,7 +12,8 @@
     @php
         $routesConfig = config('routes-config');
     @endphp
-    <div id="section_2" class="section_2">
+    
+    <section id="section_2" class="section_2">
         <div class="sections">
             <div class="hook_open">
                 @svg('/images/section-2/open.svg')
@@ -27,5 +28,5 @@
         </div>
 
         <img data-section2-view id="view_section" class="view_section" src="" alt="">
-    </div>
+    </section>
 @endsection
