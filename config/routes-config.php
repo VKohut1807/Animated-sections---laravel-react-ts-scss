@@ -30,5 +30,10 @@ return [
         'route-path' => 'section-6',
         'view-name' => 'section-6',
         'route-name' => 'section-6'
+    ],
+    'section-7' => [
+        'route-path' => 'section-7',
+        'view-name' => 'section-7',
+        'route-name' => 'section-7'
     ]
 ];

@@ -1,0 +1,66 @@
+@import "../config/config";
+
+.section_7 {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    transform: rotate(90deg);
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: transparent;
+
+    .circle_box {
+        display: block;
+        cursor: pointer;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        visibility: hidden;
+        opacity: 0;
+        box-shadow: 0 0rem 2rem $primary_400;
+        transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        
+        .icon_arrow {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 1.75rem;
+            height: auto;
+            aspect-ratio: 1;
+            user-select: none;
+            z-index: 1;
+
+            path {
+                animation: section_7__scroll_top 4s linear infinite;
+            }
+        }
+
+        .icon_circle {
+            display: block;
+            user-select: none;
+            transform: rotate(-90deg);
+            border-radius: 50%;
+            overflow: hidden;
+
+            path {
+                fill: #fff;
+                stroke: $primary_900;
+                stroke-width: 4;
+            }
+        }
+    }
+
+    @keyframes section_7__scroll_top {
+        0%,
+        100% {
+            stroke: $primary_15;
+        }
+
+        50% {
+            stroke: $primary_900;
+        }
+    }
+}
