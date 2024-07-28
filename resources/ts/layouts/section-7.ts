@@ -1,22 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
-    if (typeof scrollProgress === 'function') {
-        scrollProgress("[data-scroll-progress]", "#circle_progress path");
-    }
+    scrollProgressNr7 && scrollProgressNr7("[data-scroll-progress]", "#circle_progress path");
 });
 
 document.addEventListener('scroll', () => {
-    if (typeof scrollProgress === 'function') {
-        scrollProgress("[data-scroll-progress]", "#circle_progress path");
-    }
+    scrollProgressNr7 && scrollProgressNr7("[data-scroll-progress]", "#circle_progress path");
 });
 
 window.addEventListener('resize', () => {
-    if (typeof scrollProgress === 'function') {
-        scrollProgress("[data-scroll-progress]", "#circle_progress path");
-    }
+    scrollProgressNr7 && scrollProgressNr7("[data-scroll-progress]", "#circle_progress path");
 });
 
-function scrollProgress(sectionSelector: string, circleSelector: string): void {
+function scrollProgressNr7(sectionSelector: string, circleSelector: string): void {
     const sectionPath = document.querySelector<HTMLElement>(sectionSelector);
     const circlePath = document.querySelector<SVGPathElement>(circleSelector);
 

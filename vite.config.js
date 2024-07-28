@@ -13,6 +13,7 @@ const filesStyle = [
     'resources/scss/layouts/section-5.scss',
     'resources/scss/layouts/section-6.scss',
     'resources/scss/layouts/section-7.scss',
+    'resources/scss/layouts/section-8.scss',
 ];
 
 const filesTsx = [
@@ -23,6 +24,7 @@ const filesTs = [
     'resources/ts/components/navigationDrawers.ts',
     'resources/ts/layouts/section-2.ts',
     'resources/ts/layouts/section-7.ts',
+    'resources/ts/layouts/section-8.ts',
 ];
 
 export default defineConfig({
