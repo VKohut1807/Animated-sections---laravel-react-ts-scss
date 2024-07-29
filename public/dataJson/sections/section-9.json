@@ -1,0 +1,32 @@
+[
+    {
+        "position": "Administrator",
+        "alt": "image",
+        "src": "/images/section-9/1.jpg"
+    },
+    {
+        "position": "Planner",
+        "alt": "image",
+        "src": "/images/section-9/6.jpg"
+    },
+    {
+        "position": "Secretary",
+        "alt": "image",
+        "src": "/images/section-9/5.jpg"
+    },
+    {
+        "position": "Manager",
+        "alt": "image",
+        "src": "/images/section-9/2.jpg"
+    },
+    {
+        "position": "Consultant",
+        "alt": "image",
+        "src": "/images/section-9/3.jpg"
+    },
+    {
+        "position": "Instructor",
+        "alt": "image",
+        "src": "/images/section-9/4.jpg"
+    }
+]
