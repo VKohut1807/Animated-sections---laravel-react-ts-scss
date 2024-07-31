@@ -8,7 +8,7 @@
     @php
         $jsonFilePath = public_path('dataJson/sections/section-9.json');
         $jsonContent = file_exists($jsonFilePath) ? file_get_contents($jsonFilePath) : '{}';
-        $imageJson9 = json_decode($jsonContent, true);
+        $dataJson9 = json_decode($jsonContent, true);
     @endphp
 
     <section class="section_9">
@@ -18,8 +18,8 @@
                     <h2>minju</h2>
                     @svg('/images/section-9/signature.svg', class="signature")
                 </div>
-                <div class="gallery" style="--countImage: {{count($imageJson9)}};">
-                    @foreach ($imageJson9 as $image)
+                <div class="gallery" style="--countImage: {{count($dataJson9)}};">
+                    @foreach ($dataJson9 as $image)
                         <a href="#" class="link">
                             <img src="{{ $image['src'] }}" alt="{{ $image['alt'] }}">
                             <div class="info">
