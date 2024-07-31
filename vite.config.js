@@ -16,6 +16,7 @@ const filesStyle = [
     'resources/scss/layouts/section-8.scss',
     'resources/scss/layouts/section-9.scss',
     'resources/scss/layouts/section-10.scss',
+    'resources/scss/layouts/section-11.scss',
 ];
 
 const filesTsx = [
@@ -27,6 +28,7 @@ const filesTs = [
     'resources/ts/layouts/section-2.ts',
     'resources/ts/layouts/section-7.ts',
     'resources/ts/layouts/section-8.ts',
+    'resources/ts/layouts/section-11.ts',
 ];
 
 export default defineConfig({
