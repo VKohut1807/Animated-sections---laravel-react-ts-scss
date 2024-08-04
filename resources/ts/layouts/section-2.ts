@@ -1,7 +1,7 @@
 const sections = document.querySelectorAll<HTMLElement>('[data-section2-view-name]');
 const image = document.querySelector<HTMLImageElement>('[data-section2-view]') as HTMLImageElement | null;
 
-function handleMouseEnter(event: MouseEvent) {
+function handleMouseEnter(event: MouseEvent): void {
     const target = event.target as HTMLElement;
     const link = target.dataset.section2ViewName as string;
 
@@ -11,7 +11,7 @@ function handleMouseEnter(event: MouseEvent) {
     image.classList.add('active');
 }
 
-function handleMouseLeave() {
+function handleMouseLeave(): void {
     if (!image) return;
     image.classList.remove('active');
 }

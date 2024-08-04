@@ -16,9 +16,9 @@ function scrollProgressNr7(sectionSelector: string, circleSelector: string): voi
 
     if (!sectionPath || !circlePath) return;
 
-    const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
-    const scrollPercentage = (window.scrollY / totalHeight) * 100;
-    const newStrokeDashoffset = circlePath.getTotalLength() * (1 - scrollPercentage / 100);
+    const totalHeight: number = document.documentElement.scrollHeight - window.innerHeight;
+    const scrollPercentage: number = (window.scrollY / totalHeight) * 100;
+    const newStrokeDashoffset: number = circlePath.getTotalLength() * (1 - scrollPercentage / 100);
 
     sectionPath.style.opacity = scrollPercentage ? "1" : "0";
     sectionPath.style.visibility = scrollPercentage ? "visible" : "hidden";
