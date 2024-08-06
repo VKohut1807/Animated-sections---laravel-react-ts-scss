@@ -2,31 +2,31 @@
     {
         "position": "Administrator",
         "alt": "image",
-        "src": "/images/section-9/1.jpg"
+        "src": "1.webp"
     },
     {
         "position": "Planner",
         "alt": "image",
-        "src": "/images/section-9/6.jpg"
+        "src": "6.webp"
     },
     {
         "position": "Secretary",
         "alt": "image",
-        "src": "/images/section-9/5.jpg"
+        "src": "5.webp"
     },
     {
         "position": "Manager",
         "alt": "image",
-        "src": "/images/section-9/2.jpg"
+        "src": "2.webp"
     },
     {
         "position": "Consultant",
         "alt": "image",
-        "src": "/images/section-9/3.jpg"
+        "src": "3.webp"
     },
     {
         "position": "Instructor",
         "alt": "image",
-        "src": "/images/section-9/4.jpg"
+        "src": "4.webp"
     }
 ]

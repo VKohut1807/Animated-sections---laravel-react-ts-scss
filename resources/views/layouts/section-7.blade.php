@@ -13,8 +13,8 @@
 
     <section class="section_7">
         <div data-scroll-progress class="circle_box">
-            @svg('/images/section-7/arrow-up.svg', class="icon_arrow")
-            @svg('/images/section-7/circle.svg', class="icon_circle")
+            @svg('/svg/section-7/arrow-up.svg', class="icon_arrow")
+            @svg('/svg/section-7/circle.svg', class="icon_circle")
         </div>
     </section>
 @endsection

@@ -8,9 +8,9 @@
     <section class="section_12">
         <div class="wrapper">
             <div class="content">
-                <img src="/images/section-12/1.jpg" alt="background_image" class="background_image">
+                <img src="/images/section-12/1.webp" alt="background_image" class="background_image">
                 <div class="person_box">
-                    <img src="/images/section-12/2.jpg" alt="person_image" class="person_image">
+                    <img src="/images/section-12/2.webp" alt="person_image" class="person_image">
                 </div>
                 <div class="info">
                     <h3>Robert Mitchell</h3>

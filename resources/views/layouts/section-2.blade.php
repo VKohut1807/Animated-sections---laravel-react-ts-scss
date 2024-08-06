@@ -16,7 +16,7 @@
     <section id="section_2" class="section_2">
         <div class="sections">
             <div class="hook_open">
-                @svg('/images/section-2/open.svg')
+                @svg('/svg/section-2/open.svg')
             </div>
             <div data-section2-names class="quick_view">
                 @foreach ($routesConfig as $key => $value)

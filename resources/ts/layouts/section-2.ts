@@ -7,7 +7,7 @@ function handleMouseEnter(event: MouseEvent): void {
 
     if (!image || !link) return;
     image.style.display = "block";
-    image.src = `/images/sections-home/${link}.png`;
+    image.src = `/images/sections-home/${link}.webp`;
     image.classList.add('active');
 }
 

@@ -16,12 +16,12 @@
             <div class="group">
                 <div class="header">
                     <h2>minju</h2>
-                    @svg('/images/section-9/signature.svg', class="signature")
+                    @svg('/svg/section-9/signature.svg', class="signature")
                 </div>
                 <div class="gallery" style="--countImage: {{count($dataJson9)}};">
                     @foreach ($dataJson9 as $image)
                         <a href="#" class="link">
-                            <img src="{{ $image['src'] }}" alt="{{ $image['alt'] }}">
+                            <img src="/images/section-9/{{ $image['src'] }}" alt="{{ $image['alt'] }}">
                             <div class="info">
                                 {{ $image['position'] }}
                             </div>

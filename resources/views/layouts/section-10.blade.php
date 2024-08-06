@@ -12,7 +12,7 @@
     <section class="section_10">
         <div class="wrapper">
             <div class="content">
-                <img src="/images/section-10/1.jpg" alt="image">
+                <img src="/images/section-10/1.webp" alt="image">
                 <div class="information">
                     <h2>Welcome to the Great Public Library</h2>
                     <h4>Book order within a minute</h4>

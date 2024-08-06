@@ -21,8 +21,8 @@
         <div class="wrapper">
             <div class="group">
                 <div class="photo_group">
-                    <img data-run-y1 src="/images/section-8/1.jpg" alt="person" class="first">
-                    <img data-run-y2 src="/images/section-8/2.jpg" alt="person" class="second">
+                    <img data-run-y1 src="/images/section-8/1.webp" alt="person" class="first">
+                    <img data-run-y2 src="/images/section-8/2.webp" alt="person" class="second">
                 </div>
                 <div class="info">
                     <h5>30 years of extensive expertise</h5>

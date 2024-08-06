@@ -17,20 +17,20 @@
                 <h3>How to Apply</h3>
                 <a href="#" class="right">
                     <span class="text">View All Requirements</span>
-                    @svg('/images/section-1/arrow-right-icon.svg')
+                    @svg('/svg/section-1/arrow-right-icon.svg')
                 </a>
             </div>
             <div class="section_down">
                 @foreach ($dataJson1 as $elem)
                     <a href="#" class="block">
                         @if ($elem['number'] == 1)
-                            @svg('/images/section-1/bulb-icon.svg')
+                            @svg('/svg/section-1/bulb-icon.svg')
                         @elseif ($elem['number'] == 2)
-                            @svg('/images/section-1/hat-icon.svg')
+                            @svg('/svg/section-1/hat-icon.svg')
                         @elseif ($elem['number'] == 3)
-                            @svg('/images/section-1/id-card-icon.svg')
+                            @svg('/svg/section-1/id-card-icon.svg')
                         @else
-                            @svg('/images/section-1/medal-icon.svg')
+                            @svg('/svg/section-1/medal-icon.svg')
                         @endif
                         <h4>{{ $elem['name'] }}</h4>
                         <p>{{ $elem['descr'] }}</p>

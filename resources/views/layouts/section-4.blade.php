@@ -8,7 +8,7 @@
     <section id="section_4" class="section_4">
         <div class="canvas">
             <div class="image">
-                <img loading="lazy" load src="/images/section-4/1.jpg" alt="image">
+                <img loading="lazy" load src="/images/section-4/1.webp" alt="image">
                 <a href="#" class="link">Read More</a>
             </div>
             <div class="wrapper">

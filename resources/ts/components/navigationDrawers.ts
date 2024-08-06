@@ -7,7 +7,7 @@ function handleMouseEnterNavDraw(event: MouseEvent) {
 
     if (!imageNavDraw || !link) return;
     imageNavDraw.style.display = "block";
-    imageNavDraw.src = `/images/sections-home/${link}.png`;
+    imageNavDraw.src = `/images/sections-home/${link}.webp`;
     imageNavDraw.classList.add('active');
 }
 

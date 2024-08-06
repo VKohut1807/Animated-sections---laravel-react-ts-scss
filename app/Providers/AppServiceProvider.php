@@ -22,7 +22,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         // svg-directive for include svg, example:
-        // @svg('/images/svg/section-1/bulb-icon.svg', 'id="id_svg" width="100" height="100" class="icon"')
+        // @svg('/svg/section-1/bulb-icon.svg', 'id="id_svg" width="100" height="100" class="icon"')
         Blade::directive('svg', function ($arguments) {
             $args = explode(',', trim($arguments, "() "));
             $path = trim($args[0], "' ");

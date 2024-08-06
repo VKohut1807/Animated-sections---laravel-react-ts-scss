@@ -18,6 +18,7 @@ const filesStyle = [
     'resources/scss/layouts/section-10.scss',
     'resources/scss/layouts/section-11.scss',
     'resources/scss/layouts/section-12.scss',
+    'resources/scss/layouts/section-13.scss',
 ];
 
 const filesTsx = [
@@ -49,6 +50,7 @@ export default defineConfig({
         alias: {
             '@': path.resolve(__dirname, './resources'),
             '@scss': path.resolve(__dirname, './resources/scss'),
+            '@svg': path.resolve(__dirname, './resources/svg'),
         },
     }
 });

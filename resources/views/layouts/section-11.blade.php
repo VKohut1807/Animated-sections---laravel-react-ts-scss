@@ -16,7 +16,7 @@
     <section style="height: 100rem; background-color: #f3f3da;"></section>
 
     <section data-section-selector class="section_11">
-        <img data-image-selector src="/images/section-11/1.jpg" alt="image">
+        <img data-image-selector src="/images/section-11/1.webp" alt="image">
         <div class="wrapper">
             <div class="content">
                 <div class="information">

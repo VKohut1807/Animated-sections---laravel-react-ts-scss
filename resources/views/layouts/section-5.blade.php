@@ -13,31 +13,31 @@
                 <a href="#" class="link">
                     <span class="word">Right Product</span>
                 </a>
-                @svg('/images/section-5/chain.svg', class="chain")
+                @svg('/svg/section-5/chain.svg', class="chain")
                 <a href="#" class="link">
                     <span class="word no_color">Right Customer</span>
                 </a>
-                @svg('/images/section-5/chain.svg', class="chain")
+                @svg('/svg/section-5/chain.svg', class="chain")
                 <a href="#" class="link">
                     <span class="word">Right Price</span>
                 </a>
-                @svg('/images/section-5/chain.svg', class="chain")
+                @svg('/svg/section-5/chain.svg', class="chain")
                 <a href="#" class="link">
                     <span class="word no_color">Right Quantity</span>
                 </a>
-                @svg('/images/section-5/chain.svg', class="chain")
+                @svg('/svg/section-5/chain.svg', class="chain")
                 <a href="#" class="link">
                     <span class="word">Right Condition</span>
                 </a>
-                @svg('/images/section-5/chain.svg', class="chain")
+                @svg('/svg/section-5/chain.svg', class="chain")
                 <a href="#" class="link">
                     <span class="word no_color">Right Time</span>
                 </a>
-                @svg('/images/section-5/chain.svg', class="chain")
+                @svg('/svg/section-5/chain.svg', class="chain")
                 <a href="#" class="link">
                     <span class="word no_color">Right Place</span>
                 </a>
-                @svg('/images/section-5/chain.svg', class="chain")
+                @svg('/svg/section-5/chain.svg', class="chain")
             @endforeach
         </div>
     </section>
